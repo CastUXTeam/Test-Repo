@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAST - Application Intelligence Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Left Navigation Menu -->
+    <nav class="left-nav">
+        <div class="logo">
+            <h1>CAST</h1>
+            <p class="tagline">Application Intelligence</p>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#platform">Platform</a></li>
+            <li><a href="#graph">Knowledge Graph</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <h1>Welcome to CAST</h1>
+                <p class="subtitle">Transforming Software Intelligence with Advanced Analytics</p>
+            </div>
+
+            <div class="intro-content">
+                <h2>The Platform</h2>
+                <p>CAST Application Intelligence Platform delivers unprecedented visibility into the inner workings of custom-built software applications. By analyzing millions of lines of code across multiple technologies, CAST provides actionable insights that help organizations:</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="icon">📊</div>
+                        <h3>Measure Software Health</h3>
+                        <p>Assess structural quality, security vulnerabilities, and technical debt across your entire application portfolio.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🔍</div>
+                        <h3>Deep Code Analysis</h3>
+                        <p>Automatically analyze source code to understand complex relationships and dependencies within your applications.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">⚡</div>
+                        <h3>Accelerate Modernization</h3>
+                        <p>Make informed decisions about cloud migration, refactoring, and technology upgrades with data-driven insights.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🛡️</div>
+                        <h3>Risk Mitigation</h3>
+                        <p>Identify critical security flaws and compliance issues before they impact your business.</p>
+                    </div>
+                </div>
+
+                <h2>Understanding the Knowledge Graph</h2>
+                <p>At the heart of the CAST platform lies our proprietary <strong>Knowledge Graph</strong> - a revolutionary approach to understanding software architecture:</p>
+                
+                <div class="graph-section">
+                    <div class="graph-info">
+                        <h3>What is the CAST Knowledge Graph?</h3>
+                        <p>The Knowledge Graph is a comprehensive, multi-dimensional representation of your entire software landscape. It captures:</p>
+                        <ul>
+                            <li><strong>Code Relationships:</strong> How components, classes, and functions interact across your entire codebase</li>
+                            <li><strong>Data Flows:</strong> How information moves through your application layers</li>
+                            <li><strong>Dependencies:</strong> External libraries, frameworks, and service integrations</li>
+                            <li><strong>Business Context:</strong> Connections between technical components and business capabilities</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="graph-visual">
+                        <svg viewBox="0 0 400 300" class="graph-diagram">
+                            <!-- Central node -->
+                            <circle cx="200" cy="150" r="40" class="central-node" />
+                            <text x="200" y="155" text-anchor="middle" class="node-text">Core</text>
+                            
+                            <!-- Outer nodes -->
+                            <circle cx="100" cy="80" r="25" class="outer-node" />
+                            <text x="100" y="85" text-anchor="middle" class="node-text-small">UI</text>
+                            <line x1="200" y1="150" x2="100" y2="80" class="connection" />
+                            
+                            <circle cx="300" cy="80" r="25" class="outer-node" />
+                            <text x="300" y="85" text-anchor="middle" class="node-text-small">API</text>
+                            <line x1="200" y1="150" x2="300" y2="80" class="connection" />
+                            
+                            <circle cx="320" cy="200" r="25" class="outer-node" />
+                            <text x="320" y="205" text-anchor="middle" class="node-text-small">Data</text>
+                            <line x1="200" y1="150" x2="320" y2="200" class="connection" />
+                            
+                            <circle cx="100" cy="220" r="25" class="outer-node" />
+                            <text x="100" y="225" text-anchor="middle" class="node-text-small">Auth</text>
+                            <line x1="200" y1="150" x2="100" y2="220" class="connection" />
+                            
+                            <circle cx="200" cy="250" r="25" class="outer-node" />
+                            <text x="200" y="255" text-anchor="middle" class="node-text-small">Service</text>
+                            <line x1="200" y1="150" x2="200" y2="250" class="connection" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="insights-highlight">
+                    <h2>Key Insights from the Platform</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">5B+</div>
+                            <div class="stat-label">Lines of Code Analyzed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">95%</div>
+                            <div class="stat-label">Accuracy in Defect Detection</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">70%</div>
+                            <div class="stat-label">Reduction in Technical Debt</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Technologies Supported</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h2>Ready to Transform Your Software Intelligence?</h2>
+                    <p>Discover how CAST can help you understand, measure, and improve your application portfolio.</p>
+                    <button class="cta-button">Get Started</button>
+                    <button class="cta-button secondary">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Section -->
+        <section id="platform" class="section">
+            <h1>Platform Overview</h1>
+            <p>The CAST Application Intelligence Platform provides comprehensive analysis and insights into your software applications.</p>
+            <!-- Additional content can be added here -->
+        </section>
+
+        <!-- Graph Section -->
+        <section id="graph" class="section">
+            <h1>Knowledge Graph</h1>
+            <p>Explore the relationships and dependencies within your software architecture.</p>
+            <!-- Additional content can be added here -->
+        </section>
+
+        <!-- Insights Section -->
+        <section id="insights" class="section">
+            <h1>Insights & Analytics</h1>
+            <p>Gain actionable insights from your software analysis.</p>
+            <!-- Additional content can be added here -->
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h1>About CAST</h1>
+            <p>Learn more about our mission and technology.</p>
+            <!-- Additional content can be added here -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
